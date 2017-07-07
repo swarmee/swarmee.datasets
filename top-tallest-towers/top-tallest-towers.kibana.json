@@ -1,0 +1,95 @@
+[
+  {
+    "_id": "00df0a20-32c6-11e7-8958-4b9a8c7127a9",
+    "_type": "visualization",
+    "_source": {
+      "title": "top-tallest-towers - Pie Chart - Number of Towers by Country",
+      "visState": "{\"title\":\"top-tallest-towers - Pie Chart - Number of Towers by Country\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"country.keyword\",\"size\":140,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "2f458200-32c5-11e7-8958-4b9a8c7127a9",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8d3e1920-32c6-11e7-a0a0-8d4eefa28fb4",
+    "_type": "visualization",
+    "_source": {
+      "title": "top-tallest-towers - Pie Chart - Number of Towers by City",
+      "visState": "{\"title\":\"top-tallest-towers - Pie Chart - Number of Towers by City\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"city.keyword\",\"size\":140,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "2f458200-32c5-11e7-8958-4b9a8c7127a9",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bfda7280-32c5-11e7-8958-4b9a8c7127a9",
+    "_type": "visualization",
+    "_source": {
+      "title": "top-tallest-towers - Heigh Bar Chart Broken Down By Country",
+      "visState": "{\"title\":\"top-tallest-towers - Heigh Bar Chart Broken Down By Country\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{\"text\":\"buildingName.keyword: Descending\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of heightInMetres\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Sum of heightInMetres\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"heightInMetres\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"buildingName.keyword\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"country.keyword\",\"size\":70,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "2f458200-32c5-11e7-8958-4b9a8c7127a9",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },  {
+    "_id": "147d7850-32c6-11e7-99c7-7bca8d027859",
+    "_type": "dashboard",
+    "_source": {
+      "title": "top-tallest-towers",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"columns\":[\"rank\",\"buildingName\",\"city\",\"country\",\"floors\",\"heightInFeet\",\"heightInMetres\"],\"id\":\"2f458200-32c5-11e7-8958-4b9a8c7127a9\",\"panelIndex\":1,\"row\":7,\"size_x\":12,\"size_y\":3,\"sort\":[\"rank\",\"asc\"],\"type\":\"search\"},{\"col\":7,\"id\":\"00df0a20-32c6-11e7-8958-4b9a8c7127a9\",\"panelIndex\":2,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"bfda7280-32c5-11e7-8958-4b9a8c7127a9\",\"panelIndex\":3,\"row\":1,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":6,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"8d3e1920-32c6-11e7-a0a0-8d4eefa28fb4\",\"col\":1,\"row\":4}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-70y",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },  {
+    "_id": "2f458200-32c5-11e7-8958-4b9a8c7127a9",
+    "_type": "search",
+    "_source": {
+      "title": "top-tallest-towers",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "rank",
+        "buildingName",
+        "city",
+        "country",
+        "floors",
+        "heightInFeet",
+        "heightInMetres"
+      ],
+      "sort": [
+        "rank",
+        "asc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"top-tallest-towers\",\"highlightAll\":true,\"version\":true,\"filter\":[],\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  }
+]

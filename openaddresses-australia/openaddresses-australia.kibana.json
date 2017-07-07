@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "2128d320-14b1-11e7-aefe-13387d3a7774",
+    "_type": "dashboard",
+    "_source": {
+      "title": "openaddresses-australia",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":7,\"id\":\"fa172570-14b0-11e7-9bd7-b5dd1494c90c\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"2994eed0-14b2-11e7-9bd7-b5dd1494c90c\",\"panelIndex\":3,\"row\":6,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"919e62e0-14b2-11e7-9bd7-b5dd1494c90c\",\"panelIndex\":5,\"row\":2,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"dc641450-14b2-11e7-9bd7-b5dd1494c90c\",\"panelIndex\":6,\"row\":1,\"size_x\":2,\"size_y\":1,\"type\":\"visualization\"},{\"col\":3,\"id\":\"9c3cd270-14b4-11e7-9bd7-b5dd1494c90c\",\"panelIndex\":8,\"row\":1,\"size_x\":2,\"size_y\":1,\"type\":\"visualization\"},{\"col\":1,\"id\":\"97467530-14b6-11e7-9bd7-b5dd1494c90c\",\"panelIndex\":9,\"row\":8,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":5,\"id\":\"48971100-14b7-11e7-b4e4-09acfb7a06ae\",\"panelIndex\":10,\"row\":1,\"size_x\":1,\"size_y\":1,\"type\":\"visualization\"},{\"col\":4,\"id\":\"cfa04f90-14b7-11e7-b4e4-09acfb7a06ae\",\"panelIndex\":11,\"row\":2,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":5,\"id\":\"92cc39f0-1b54-11e7-ba3f-ffc1c955c28d\",\"panelIndex\":15,\"row\":8,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"unit\",\"streetNumber\",\"street\",\"suburb\",\"state\",\"postcode\"],\"id\":\"3593ef50-1431-11e7-b444-e31e555669dd\",\"panelIndex\":16,\"row\":12,\"size_x\":12,\"size_y\":5,\"sort\":[\"_score\",\"desc\"],\"type\":\"search\"},{\"col\":6,\"id\":\"b06f8c40-1b55-11e7-a43d-8b578d57e57b\",\"panelIndex\":17,\"row\":1,\"size_x\":1,\"size_y\":1,\"type\":\"visualization\"},{\"col\":9,\"id\":\"ed1976e0-14b3-11e7-9bd7-b5dd1494c90c\",\"panelIndex\":18,\"row\":8,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"mapCenter\":[-27.955591004642528,133.3740234375],\"mapZoom\":4},\"P-15\":{\"vis\":{\"colors\":{\"Count\":\"#70DBED\"},\"legendOpen\":false}},\"P-3\":{\"vis\":{\"colors\":{\"Count\":\"#E24D42\"},\"legendOpen\":false}},\"P-9\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"desc\"}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "3593ef50-1431-11e7-b444-e31e555669dd",
+    "_type": "search",
+    "_source": {
+      "title": "openaddresses-australia",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "unit",
+        "streetNumber",
+        "street",
+        "suburb",
+        "state",
+        "postcode"
+      ],
+      "sort": [
+        "_score",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"highlightAll\":true,\"filter\":[],\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "fa172570-14b0-11e7-9bd7-b5dd1494c90c",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - title map",
+      "visState": "{\"title\":\"openaddresses - title map\",\"type\":\"tile_map\",\"params\":{\"addTooltip\":true,\"heatBlur\":\"14\",\"heatMaxZoom\":16,\"heatMinOpacity\":\"0.48\",\"heatNormalizeData\":true,\"heatRadius\":\"11\",\"isDesaturated\":true,\"legendPosition\":\"bottomright\",\"mapCenter\":[15,5],\"mapType\":\"Heatmap\",\"mapZoom\":2,\"wms\":{\"enabled\":false,\"options\":{\"attribution\":\"Maps provided by USGS\",\"format\":\"image/png\",\"layers\":\"TOPO-OSM-WMS\",\"styles\":\"\",\"transparent\":true,\"version\":\"1.3.0\"},\"url\":\"http://ows.mundialis.de/services/service?\"}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"location\",\"autoPrecision\":false,\"precision\":6}}],\"listeners\":{}}",
+      "uiStateJSON": "{\n  \"mapCenter\": [\n    -26.588527147308614,\n    134.9560546875\n  ],\n  \"mapZoom\": 4\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[{\"meta\":{\"index\":\"openaddresses\",\"key\":\"query\",\"value\":\"{\\\"bool\\\":{\\\"must\\\":{\\\"match_all\\\":{}},\\\"filter\\\":{\\\"geo_distance\\\":{\\\"distance\\\":\\\"50km\\\",\\\"location\\\":{\\\"lat\\\":-33.8716574,\\\"lon\\\":151.200539}}}}}\",\"disabled\":true,\"negate\":false,\"alias\":\"< 50km from Sydney\"},\"query\":{\"bool\":{\"must\":{\"match_all\":{}},\"filter\":{\"geo_distance\":{\"distance\":\"50km\",\"location\":{\"lat\":-33.8716574,\"lon\":151.200539}}}}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    }
+  },
+  {
+    "_id": "ed1976e0-14b3-11e7-9bd7-b5dd1494c90c",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - Street Type - Donut",
+      "visState": "{\"title\":\"openaddresses - Street Type - Donut\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"street: street\",\"analyze_wildcard\":true}}},\"label\":\"Street\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"street: avenue\",\"analyze_wildcard\":true}}},\"label\":\"Avenue\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"street: road\",\"analyze_wildcard\":true}}},\"label\":\"Road\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"street: HIGHWAY\",\"analyze_wildcard\":true}}},\"label\":\"Highway\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"street: DRIVE\",\"analyze_wildcard\":true}}},\"label\":\"Drive\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"street: PLACE\",\"analyze_wildcard\":true}}},\"label\":\"Place\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"street: COURT\",\"analyze_wildcard\":true}}},\"label\":\"Court\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"street: CRESCENT\",\"analyze_wildcard\":true}}},\"label\":\"Crescent\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"street: TERRACE\",\"analyze_wildcard\":true}}},\"label\":\"Terrace\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "97467530-14b6-11e7-9bd7-b5dd1494c90c",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - Data Table - Street Name",
+      "visState": "{\"title\":\"openaddresses - Data Table - Street Name\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"street.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\n  \"vis\": {\n    \"params\": {\n      \"sort\": {\n        \"columnIndex\": null,\n        \"direction\": null\n      }\n    }\n  }\n}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "2994eed0-14b2-11e7-9bd7-b5dd1494c90c",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - Street Number - histogram",
+      "visState": "{\"title\":\"openaddresses - Street Number - histogram\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"streetNumber.keyword\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "92cc39f0-1b54-11e7-ba3f-ffc1c955c28d",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - Top Postcodes",
+      "visState": "{\"title\":\"openaddresses - Top Postcodes\",\"type\":\"histogram\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"postcode.keyword\",\"size\":25,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "919e62e0-14b2-11e7-9bd7-b5dd1494c90c",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - State - Donut Chart",
+      "visState": "{\"title\":\"openaddresses - State - Donut Chart\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"state.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "9c3cd270-14b4-11e7-9bd7-b5dd1494c90c",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - Unique Street Names",
+      "visState": "{\"title\":\"openaddresses - Unique Street Names\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"18\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"street.keyword\",\"customLabel\":\"Unique Street Names\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "48971100-14b7-11e7-b4e4-09acfb7a06ae",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - Unique Suburbs Names",
+      "visState": "{\"title\":\"openaddresses - Unique Suburbs Names\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"18\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"suburb.keyword\",\"customLabel\":\"Unique Suburbs\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b06f8c40-1b55-11e7-a43d-8b578d57e57b",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - Unique Postcodes",
+      "visState": "{\"title\":\"openaddresses - Unique Postcodes\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"18\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"postcode.keyword\",\"customLabel\":\"Unique Postcodes\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "dc641450-14b2-11e7-9bd7-b5dd1494c90c",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - Count of Addresses in Australia",
+      "visState": "{\"title\":\"openaddresses - Count of Addresses in Australia\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"20\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Addresses In Australia\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "84d8fc50-1a9d-11e7-9a64-cb7075130c80",
+    "_type": "visualization",
+    "_source": {
+      "title": "Openaddresses - Title",
+      "visState": "{\"title\":\"Openaddresses - Title\",\"type\":\"markdown\",\"params\":{\"markdown\":\"## AUSTRALIAN ADDRESSES\\n\\n### AUSTRALIAN STATES\\n\\n- [NSW](/app/kibana#/dashboard/8388c850-1c8f-11e7-9716-bd7a35d4c721)\\n- [QLD](/app/kibana#/dashboard/0512c080-1b53-11e7-bac9-0b1b08f5f282)\\n- [ACT](/app/kibana#/dashboard/0512c080-1b53-11e7-bac9-0b1b08f5f282)\\n- [VIC](/app/kibana#/dashboard/0512c080-1b53-11e7-bac9-0b1b08f5f282)\\n\\n###\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "cfa04f90-14b7-11e7-b4e4-09acfb7a06ae",
+    "_type": "visualization",
+    "_source": {
+      "title": "openaddresses - Top Suburbs",
+      "visState": "{\"title\":\"openaddresses - Top Suburbs\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"suburb.keyword\",\"size\":15,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Top 10 Suburbs\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"openaddresses-australia\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

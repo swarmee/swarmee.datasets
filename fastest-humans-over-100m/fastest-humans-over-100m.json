@@ -1,0 +1,21 @@
+{
+  "template": "fastest-humans-over-100m-2-4-2017",
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 1,
+    "index.codec": "best_compression",
+    "index.refresh_interval" : "1s"
+  },
+    "mappings": {
+      "run": {
+        "properties": {
+          "runnerNationLocation": {
+            "type": "geo_point"
+          },
+            "raceLocation": {
+            "type": "geo_point"
+          }
+        }
+      }
+    }
+  }

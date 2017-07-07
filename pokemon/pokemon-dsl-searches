@@ -1,0 +1,25 @@
+GET /pokemon/_search
+{"size": 0, 
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "query_string": {
+            "query": "fire"
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "pokemonType": {
+      "terms": {
+        "field": "pokemonType.keyword",
+        "order": {
+          "_count": "desc"
+        },
+        "size": 10
+      }
+    }
+  }
+}

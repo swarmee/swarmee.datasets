@@ -1,0 +1,73 @@
+[
+  {
+    "_id": "bdde0ca0-32cd-11e7-acc4-15a169cdd5a5",
+    "_type": "search",
+    "_source": {
+      "title": "top-sellings-books",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "Book",
+        "Author",
+        "OriginalLanguage",
+        "yearFirstPublished",
+        "millionOfSales"
+      ],
+      "sort": [
+        "millionOfSales",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"top-sellings-books\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+    {
+    "_id": "ed7a8190-32ce-11e7-9d8e-6b2abab8b376",
+    "_type": "dashboard",
+    "_source": {
+      "title": "top-sellings-books",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"columns\":[\"Book\",\"Author\",\"OriginalLanguage\",\"yearFirstPublished\",\"millionOfSales\"],\"id\":\"bdde0ca0-32cd-11e7-acc4-15a169cdd5a5\",\"panelIndex\":1,\"row\":4,\"size_x\":12,\"size_y\":6,\"sort\":[\"millionOfSales\",\"desc\"],\"type\":\"search\"},{\"col\":7,\"id\":\"3ac9e090-32ce-11e7-acc4-15a169cdd5a5\",\"panelIndex\":2,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"11a8dae0-32ce-11e7-acc4-15a169cdd5a5\",\"panelIndex\":3,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+    {
+    "_id": "11a8dae0-32ce-11e7-acc4-15a169cdd5a5",
+    "_type": "visualization",
+    "_source": {
+      "title": "top-sellings-books - Top Authors - Millions of Sales",
+      "visState": "{\"title\":\"top-sellings-books - Top Authors - Millions of Sales\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"millionOfSales\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"Author.keyword\",\"size\":25,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "bdde0ca0-32cd-11e7-acc4-15a169cdd5a5",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "3ac9e090-32ce-11e7-acc4-15a169cdd5a5",
+    "_type": "visualization",
+    "_source": {
+      "title": "top-sellings-books - Top Languages - Count of Books",
+      "visState": "{\"title\":\"top-sellings-books - Top Languages - Count of Books\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"OriginalLanguage.keyword\",\"size\":40,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "bdde0ca0-32cd-11e7-acc4-15a169cdd5a5",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  }
+]

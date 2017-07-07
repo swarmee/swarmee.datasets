@@ -1,0 +1,15 @@
+{
+  "template": "top-world-cities-2-4-2017",
+  "settings": {
+    "number_of_shards": 3,
+    "number_of_replicas": 0,
+    "index.codec": "best_compression",
+    "index.refresh_interval" : "99s"
+  },
+    "mappings": {
+      "city": {
+        "properties": {
+          "location": {
+            "type": "geo_point"
+          }
+}}}}

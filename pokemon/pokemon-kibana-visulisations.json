@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "3c599cf0-552b-11e7-bdd1-27324eede2fb",
+    "_type": "visualization",
+    "_source": {
+      "title": "pokemon - Type",
+      "visState": "{\"title\":\"pokemon - Type\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"pokemonType.keyword\",\"size\":30,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "592e5c00-5529-11e7-8c8f-27757277b03d",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4a5d3b10-552e-11e7-bdd1-27324eede2fb",
+    "_type": "visualization",
+    "_source": {
+      "title": "pokemon - Total Point Groupings",
+      "visState": "{\"title\":\"pokemon - Total Point Groupings\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":150,\"rotate\":75},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"totalPoints: [0 TO 200]\",\"analyze_wildcard\":true}}},\"label\":\"Between 0 & 200 points\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"totalPoints: [201 TO 300]\",\"analyze_wildcard\":true}}},\"label\":\"Between 201 & 300 points\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"totalPoints: [301 TO 400]\",\"analyze_wildcard\":true}}},\"label\":\"Between 301 & 400 points\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"totalPoints: [401 TO 500]\",\"analyze_wildcard\":true}}},\"label\":\"Between 401 & 500 points\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"totalPoints: [501 TO 600]\",\"analyze_wildcard\":true}}},\"label\":\"Between 501 & 600 points\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"totalPoints: [601 TO 1000]\",\"analyze_wildcard\":true}}},\"label\":\"Between 600+ points\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "592e5c00-5529-11e7-8c8f-27757277b03d",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b3bf0140-5530-11e7-bdd1-27324eede2fb",
+    "_type": "visualization",
+    "_source": {
+      "title": "pokemon - Top 100 \"fastest\" Pokemon",
+      "visState": "{\"title\":\"pokemon - Top 100 \\\"fastest\\\" Pokemon\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":200,\"rotate\":75},\"title\":{\"text\":\"pokemonName: Descending\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of speed\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Sum of speed\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"showCircles\":true,\"interpolate\":\"linear\",\"scale\":\"linear\",\"drawLinesBetweenPoints\":true,\"radiusRatio\":9,\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"speed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"pokemonName\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+      "description": "",
+      "savedSearchId": "592e5c00-5529-11e7-8c8f-27757277b03d",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  }
+]
