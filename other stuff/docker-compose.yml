@@ -1,0 +1,34 @@
+version: '2'
+services:
+  elasticsearch1:
+    image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0
+    container_name: elasticsearch2
+    environment:
+      - cluster.name=swarmee
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - node.name=elastic2
+      - network.publish_host=
+      - xpack.security.enabled=false
+      - xpack.monitoring.collection.interval=120s
+      - node.master=true
+      - discovery.zen.ping.unicast.hosts=
+      - discovery.zen.minimum_master_nodes=2
+      - xpack.ml.enabled=false
+      - path.logs=/usr/share/elasticsearch/logs
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    mem_limit: 1g
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+      - eslog1:/usr/share/elasticsearch/logs
+    ports:
+      - 9200:9200
+      - 9300:9300
+volumes:
+  esdata1:
+    driver: local
+  eslog1:
+    driver: local
