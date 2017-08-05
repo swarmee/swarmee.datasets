@@ -1,6 +1,7 @@
-## Using Elasticsearch & Kibana to Analyze Fastest Men & Womemn over 100 Meters
+## Using Logstash to Load up a CSV with the World's fastest Runners into Elasticsearch & then Visualise the data in Kibana
 
-In this example, we will be analyzing the historical donations and projects data provided by [wikipedia.org](http://en.wikipedia.org/wiki/100_metres) by using Logstash, Elasticsearch and Kibana. 
+Firstly this dataset is small - however the techiques used here can be applied to your own large datasets.
+In this example, we will be loading up some stats in relation to the fastest humans over 100 meters with data pulled from [wikipedia.org](http://en.wikipedia.org/wiki/100_metres). 
 
 ##### Version
 Example has been tested in following versions:
@@ -23,15 +24,13 @@ Example has been tested in following versions:
   - Open `localhost:9200` in web browser -- should return status code 200
   - Open `localhost:5601` in web browser -- should display Kibana UI.
 
-  **Note:** By default, Elasticsearch runs on port 9200, and Kibana run on ports 5601. If you changed the default ports, change   the above calls to use appropriate ports.
-
 ### Load Up the Data (run the shell script) 
 
-The dataset is very small so is included inthe git repo, all that is needed to load the data into elastic is 
+The dataset is very small so is included in the git repo, all that is needed to load the data into elastic is 
   ```shell
-  <path_where_you_cloned_the_repo>bin/fastest-humans-over-100m.sh
+  <path_where_you_cloned_the_repo>sudo ./fastest-humans-over-100m.sh
   ```
-
+(note: sudo may or may not be required depending on your groups)
 
 #### Visualize Data in Kibana
 
@@ -43,9 +42,8 @@ The dataset is very small so is included inthe git repo, all that is needed to l
 * Open dashboard
     * Click on **Dashboard** tab and open `Donors Choose` dashboard. Voila! You should see the following dashboard. Happy Data Exploration!
 
-![Kibana Dashboard Screenshot](https://user-images.githubusercontent.com/5269751/28243545-367f211c-6983-11e7-8196-56adf0ccd52a.jpg)
+![Dashboard Screenshot](http://www.swarmee.net/images/slide03.png)
 
-[slide03.png](https://postimg.org/image/4ed1klqed/)
 
 ### We would love to hear from you!
 If you run into issues running this example or have suggestions to improve it, please use Github issues to let us know. Have an easy fix? Submit a pull request. We will try our best to respond in a timely manner!
