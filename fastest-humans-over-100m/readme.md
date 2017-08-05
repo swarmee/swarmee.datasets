@@ -12,10 +12,9 @@ Example has been tested in following versions:
 ### Installation & Setup
 * Follow the [Installation & Setup Guide](https://github.com/elastic/examples/blob/master/Installation%20and%20Setup.md) to install and test the Elastic Stack (*you can skip this step if you already have a working installation of the Elastic Stack*)
 
-* Run Elasticsearch & Kibana
+* Install the Required Logstash Plugin then Run Elasticsearch & Kibana
   ```shell
   <path_to_logstash_root_dir>bin/logstash-plugin install logstash-filter-rest
-  <path_to_logstash_root_dir>/bin/logstash
   <path_to_elasticsearch_root_dir>/bin/elasticsearch
   <path_to_kibana_root_dir>/bin/kibana
   ```
