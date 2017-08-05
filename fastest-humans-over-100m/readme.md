@@ -45,7 +45,7 @@ The dataset is very small so is included inthe git repo, all that is needed to l
 
 ![Kibana Dashboard Screenshot](https://user-images.githubusercontent.com/5269751/28243545-367f211c-6983-11e7-8196-56adf0ccd52a.jpg)
 
-![Alt text](/slide03.png?raw=true "Optional Title")
+[slide03.png](https://postimg.org/image/4ed1klqed/)
 
 ### We would love to hear from you!
 If you run into issues running this example or have suggestions to improve it, please use Github issues to let us know. Have an easy fix? Submit a pull request. We will try our best to respond in a timely manner!
