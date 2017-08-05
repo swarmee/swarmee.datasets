@@ -44,8 +44,3 @@ The dataset is very small so is included in the git repo, all that is needed to 
 
 ![Dashboard Screenshot](http://www.swarmee.net/images/slide03.png)
 
-
-### We would love to hear from you!
-If you run into issues running this example or have suggestions to improve it, please use Github issues to let us know. Have an easy fix? Submit a pull request. We will try our best to respond in a timely manner!
-
-Have you created interesting examples using the Elastic Stack? Looking for a way to share your amazing work with the community? We would love to include your awesome work here. For more information on how to contribute, check out the **[Contribution](https://github.com/elastic/examples#contributing)** section!
