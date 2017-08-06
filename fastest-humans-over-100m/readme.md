@@ -36,6 +36,9 @@ The second parameter is the underlying index name suffix - can be whatever you l
 
 (note: sudo may or may not be required depending on your groups)
 
+The configuation has an in built delay after each record to limit the load on the free and awesome http://nominatim.openstreetmap.org/ (this is where the geo location details come from). So it will take a minute to have all the records loaded. 
+
+
 #### Visualize Data in Kibana
 
 * Access Kibana by going to `http://localhost:5601` in a web browser
