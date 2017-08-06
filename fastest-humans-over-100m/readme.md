@@ -27,8 +27,13 @@ Example has been tested in following versions:
 
 The dataset is very small so is included in the git repo, all that is needed to load the data into elastic is 
   ```shell
-  <path_where_you_cloned_the_repo>sudo ./fastest-humans-over-100m.sh
+  <path_where_you_cloned_the_repo>sudo ./fastest-humans-over-100m.sh localhost 100m-data
   ```
+
+The first parameter is the elasticsearch instance can be ip or hostname
+
+The second parameter is the underlying index name - can be whatever you like. The script creates an alias for this index name. 
+
 (note: sudo may or may not be required depending on your groups)
 
 #### Visualize Data in Kibana

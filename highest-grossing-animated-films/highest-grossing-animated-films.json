@@ -1,5 +1,5 @@
 {
-  "template": "highest-grossing-animated-films-2-4-2017",
+  "template": "highest-grossing-animated-films*",
   "settings": {
     "number_of_shards": 1,
     "number_of_replicas": 1,
