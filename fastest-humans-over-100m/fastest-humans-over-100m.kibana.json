@@ -127,7 +127,7 @@
     "_type": "visualization",
     "_source": {
       "title": "fastest-humans-over-100m - Attribution",
-      "visState": "{\"title\":\"fastest-humans-over-100m - Attribution\",\"type\":\"markdown\",\"params\":{\"markdown\":\"Runner data sources from\\nhttps://en.wikipedia.org/wiki/100_metres\\n\\nAll locations reverse geo-located based on  http://nominatim.openstreetmap.org/\"},\"aggs\":[],\"listeners\":{}}",
+      "visState": "{\"title\":\"fastest-humans-over-100m - Attribution\",\"type\":\"markdown\",\"params\":{\"markdown\":\"Example provided under;\\n\\n- Creative Commons Attribution-ShareAlike 3.0 Unported License (“CC BY-SA”), and\\n\\n- GNU Free Documentation License (“GFDL”) \\n\\n\\n** All Runner and Event data sources from Wikipedia - https://en.wikipedia.org/wiki/100_metres **\\n\\nSee https://wikimediafoundation.org/wiki/Terms_of_Use/en for further details \\n\\n\\n**All locations data and reverse geo-coding © OpenStreetMap contributors**\\n\\nSee http://www.openstreetmap.org/copyright for further details\"},\"aggs\":[],\"listeners\":{}}",
       "uiStateJSON": "{}",
       "description": "",
       "version": 1,
