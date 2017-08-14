@@ -1,0 +1,119 @@
+{"index":{"_id":"1"}}
+{ "date": "1988-07-15T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Florence Griffith-Joyner", "runnerNation": "United States of America", "raceLocationName": "Indianapolis", "raceLocation": {"lon": "-86.1583502","lat": "39.7683331"},"rank": 1, "time": 10.49, "wind": "0"}         
+{"index":{"_id":"2"}}
+{ "date": "1998-09-11T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Marion Jones", "runnerNation": "United States of America", "raceLocationName": "Johannesburg", "raceLocation": {"lon": "28.049722","lat": "-26.205"},"rank": 3, "time": 10.65, "wind": "+1.1"}
+{"index":{"_id":"3"}}
+ { "date": "2009-09-19T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Carmelita Jeter", "runnerNation": "United States of America", "raceLocationName": "Shanghai", "raceLocation": {"lon": "121.4888922","lat": "31.2253441"},"rank": 2, "time": 10.64, "wind": "+1.2"}
+{"index":{"_id":"4"}}
+ { "date": "1984-08-21T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Evelyn Ashford", "runnerNation": "United States of America", "raceLocationName": "Zürich", "raceLocation": {"lon": "8.5423216","lat": "47.3723957"},"rank": 10, "time": 10.76, "wind": "+1.7"}
+{"index":{"_id":"5"}}
+ { "date": "2016-07-02T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "English Gardner", "runnerNation": "United States of America", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 7, "time": 10.74, "wind": "+1.0"}
+{"index":{"_id":"6"}}      
+ { "date": "2012-06-28T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Woman", "athlete": "Shelly-Ann Fraser-Pryce", "runnerNation": "Jamaica", "raceLocationName": "Kingston", "raceLocation": {"lon": "-76.7928128","lat": "17.9712148"},"rank": 4, "time": 10.7, "wind": "+0.6"}
+{"index":{"_id":"7"}}    
+ { "date": "2016-06-30T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Woman", "athlete": "Elaine Thompson", "runnerNation": "Jamaica", "raceLocationName": "Kingston", "raceLocation": {"lon": "-76.7928128","lat": "17.9712148"},"rank": 4, "time": 10.7, "wind": "+0.3"}
+{"index":{"_id":"8"}}          
+ { "date": "1998-08-18T14:00:00.000Z", "runnerNationLocation": {"lon": "1.8883335","lat": "46.603354"},"manOrWoman": "Woman", "athlete": "Christine Arron", "runnerNation": "France", "raceLocationName": "Budapest", "raceLocation": {"lon": "19.0404707","lat": "47.4983815"},"rank": 6, "time": 10.73, "wind": "+2.0"}
+{"index":{"_id":"9"}}        
+ { "date": "2009-07-09T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Woman", "athlete": "Kerron Stewart", "runnerNation": "Jamaica", "raceLocationName": "Rome", "raceLocation": {"lon": "12.4829321","lat": "41.8933203"},"rank": 9, "time": 10.75, "wind": "+0.4"}
+{"index":{"_id":"10"}}         
+ { "date": "1996-09-06T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Woman", "athlete": "Merlene Ottey", "runnerNation": "Jamaica", "raceLocationName": "Milan", "raceLocation": {"lon": "9.1904984","lat": "45.4667971"},"rank": 7, "time": 10.74, "wind": "+1.3"}
+{"index":{"_id":"11"}}          
+ { "date": "2016-07-02T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Tianna Bartoletta", "runnerNation": "United States of America", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 14, "time": 10.78, "wind": "+1.0"}
+{"index":{"_id":"12"}}        
+ { "date": "2008-06-25T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Torri Edwards", "runnerNation": "United States of America", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 14, "time": 10.78, "wind": "+1.8"}
+{"index":{"_id":"13"}}        
+ { "date": "1989-06-02T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Dawn Sowell", "runnerNation": "United States of America", "raceLocationName": "Provo", "raceLocation": {"lon": "-111.6585337","lat": "40.2338438"},"rank": 14, "time": 10.78, "wind": "+1.0"}
+{"index":{"_id":"14"}}          
+ { "date": "2016-07-02T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Tori Bowie", "runnerNation": "United States of America", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 14, "time": 10.78, "wind": "+1.0"}
+{"index":{"_id":"15"}}         
+ { "date": "1994-07-05T14:00:00.000Z", "runnerNationLocation": {"lon": "97.7453061","lat": "64.6863136"},"manOrWoman": "Woman", "athlete": "Irina Privalova", "runnerNation": "Russian Federation", "raceLocationName": "Lausanne", "raceLocation": {"lon": "6.6327025","lat": "46.5218269"},"rank": 12, "time": 10.77, "wind": "+0.9"}
+{"index":{"_id":"16"}}         
+ { "date": "2016-06-10T14:00:00.000Z", "runnerNationLocation": {"lon": "-5.5679458","lat": "7.9897371"},"manOrWoman": "Woman", "athlete": "Murielle Ahoure", "runnerNation": "Côte d'Ivoire", "raceLocationName": "Montverde", "raceLocation": {"lon": "-81.673964","lat": "28.6002769"},"rank": 14, "time": 10.78, "wind": "+1.6"}
+{"index":{"_id":"17"}}        
+ { "date": "2011-05-30T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Woman", "athlete": "Veronica Campbell-Brown", "runnerNation": "Jamaica", "raceLocationName": "Ostrava", "raceLocation": {"lon": "18.2820084","lat": "49.8349139"},"rank": 10, "time": 10.76, "wind": "+1.1"}
+{"index":{"_id":"18"}}         
+ { "date": "2004-06-18T14:00:00.000Z", "runnerNationLocation": {"lon": "25.4856617","lat": "42.6073975"},"manOrWoman": "Woman", "athlete": "Ivet Lalova", "runnerNation": "Bulgaria", "raceLocationName": "Plovdiv", "raceLocation": {"lon": "24.7421253908594","lat": "42.14391425"},"rank": 12, "time": 10.77, "wind": "+0.7"}
+{"index":{"_id":"19"}}       
+ { "date": "1997-10-17T14:00:00.000Z", "runnerNationLocation": {"lon": "104.999927","lat": "35.000074"},"manOrWoman": "Woman", "athlete": "Li Xuemei", "runnerNation": "China", "raceLocationName": "Shanghai", "raceLocation": {"lon": "121.4888922","lat": "31.2253441"},"rank": 19, "time": 10.79, "wind": "0"}
+{"index":{"_id":"20"}}       
+ { "date": "1993-08-15T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Gail Devers", "runnerNation": "United States of America", "raceLocationName": "Stuttgart", "raceLocation": {"lon": "9.1800132","lat": "48.7784485"},"rank": 24, "time": 10.82, "wind": "-0.3"}
+{"index":{"_id":"21"}}         
+ { "date": "1993-07-06T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Gail Devers", "runnerNation": "United States of America", "raceLocationName": "Lausanne", "raceLocation": {"lon": "6.6327025","lat": "46.5218269"},"rank": 24, "time": 10.82, "wind": "+1.5"}
+{"index":{"_id":"22"}}         
+ { "date": "1999-08-21T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Inger Miller", "runnerNation": "United States of America", "raceLocationName": "Seville", "raceLocation": {"lon": "-5.9953171","lat": "37.3886303"},"rank": 19, "time": 10.79, "wind": "-0.1"}
+{"index":{"_id":"23"}}        
+ { "date": "1994-09-02T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Gwen Torrence", "runnerNation": "United States of America", "raceLocationName": "Paris", "raceLocation": {"lon": "2.3514992","lat": "48.8566101"},"rank": 24, "time": 10.82, "wind": "+0.4"}
+{"index":{"_id":"24"}}        
+ { "date": "1992-07-31T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Woman", "athlete": "Gail Devers", "runnerNation": "United States of America", "raceLocationName": "Barcelona", "raceLocation": {"lon": "2.1774322","lat": "41.3828939"},"rank": 24, "time": 10.82, "wind": "-1"}
+{"index":{"_id":"25"}}          
+ { "date": "2015-08-23T14:00:00.000Z", "runnerNationLocation": {"lon": "5.7480821","lat": "52.5001698"},"manOrWoman": "Woman", "athlete": "Dafne Schippers", "runnerNation": "The Netherlands", "raceLocationName": "Beijing", "raceLocation": {"lon": "116.391248","lat": "39.9059631"},"rank": 22, "time": 10.81, "wind": "-0.3"}
+{"index":{"_id":"26"}}         
+ { "date": "1983-06-07T14:00:00.000Z", "runnerNationLocation": {"lon": "10.4234469","lat": "51.0834196"},"manOrWoman": "Woman", "athlete": "Marlies Göhr", "runnerNation": "Germany, Europe", "raceLocationName": "Berlin", "raceLocation": {"lon": "13.3888599","lat": "52.5170365"},"rank": 22, "time": 10.81, "wind": "+1.7"}
+{"index":{"_id":"27"}}        
+ { "date": "2013-07-26T14:00:00.000Z", "runnerNationLocation": {"lon": "7.9999721","lat": "9.6000359"},"manOrWoman": "Woman", "athlete": "Blessing Okagbare", "runnerNation": "Nigeria", "raceLocationName": "London", "raceLocation": {"lon": "-81.246643","lat": "42.988576"},"rank": 19, "time": 10.79, "wind": "+1.1"}
+{"index":{"_id":"28"}}        
+ { "date": "2001-08-05T14:00:00.000Z", "runnerNationLocation": {"lon": "31.2718321","lat": "49.4871968"},"manOrWoman": "Woman", "athlete": "Zhanna Block", "runnerNation": "Ukraine", "raceLocationName": "Edmonton", "raceLocation": {"lon": "-113.507996","lat": "53.535411"},"rank": 24, "time": 10.82, "wind": "-0.3"}
+{"index":{"_id":"29"}}        
+ { "date": "1999-06-15T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Maurice Greene", "runnerNation": "United States of America", "raceLocationName": "Athens", "raceLocation": {"lon": "-83.3881868","lat": "33.9550905"},"rank": 7, "time": 9.79, "wind": "+0.1"}
+{"index":{"_id":"30"}}         
+ { "date": "2015-05-14T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Justin Gatlin", "runnerNation": "United States of America", "raceLocationName": "Doha", "raceLocation": {"lon": "51.4996673988223","lat": "25.3014957"},"rank": 5, "time": 9.74, "wind": "+0.9"}
+{"index":{"_id":"31"}}         
+ { "date": "2009-09-19T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Tyson Gay", "runnerNation": "United States of America", "raceLocationName": "Shanghai", "raceLocation": {"lon": "121.4888922","lat": "31.2253441"},"rank": 2, "time": 9.69, "wind": "+2.0"}
+{"index":{"_id":"32"}}         
+ { "date": "2006-06-23T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Woman", "athlete": "Sherone Simpson", "runnerNation": "Jamaica", "raceLocationName": "Kingston", "raceLocation": {"lon": "-76.7928128","lat": "17.9712148"},"rank": 24, "time": 10.82, "wind": "-0.7"}
+{"index":{"_id":"33"}}       
+ { "date": "2008-09-01T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Man", "athlete": "Asafa Powell", "runnerNation": "Jamaica", "raceLocationName": "Lausanne", "raceLocation": {"lon": "6.6327025","lat": "46.5218269"},"rank": 4, "time": 9.72, "wind": "+0.2"}
+{"index":{"_id":"34"}}         
+ { "date": "2011-06-03T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Man", "athlete": "Steve Mullings", "runnerNation": "Jamaica", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 8, "time": 9.8, "wind": "+1.3"}
+{"index":{"_id":"35"}}          
+ { "date": "2012-08-22T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Man", "athlete": "Yohan Blake", "runnerNation": "Jamaica", "raceLocationName": "Lausanne", "raceLocation": {"lon": "6.6327025","lat": "46.5218269"},"rank": 2, "time": 9.69, "wind": "-0.1"}
+{"index":{"_id":"36"}}        
+ { "date": "2010-08-28T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Man", "athlete": "Nesta Carter", "runnerNation": "Jamaica", "raceLocationName": "Rieti", "raceLocation": {"lon": "12.8629993","lat": "42.4016906"},"rank": 6, "time": 9.78, "wind": "+0.9"}
+{"index":{"_id":"37"}}        
+ { "date": "2009-08-15T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Man", "athlete": "Usain Bolt", "runnerNation": "Jamaica", "raceLocationName": "Berlin", "raceLocation": {"lon": "13.3888599","lat": "52.5170365"},"rank": 1, "time": 9.58, "wind": "+0.9"}
+{"index":{"_id":"38"}}     
+ { "date": "2014-06-20T14:00:00.000Z", "runnerNationLocation": {"lon": "-60.9821067","lat": "10.8677845"},"manOrWoman": "Man", "athlete": "Richard Thompson", "runnerNation": "Trinidad and Tobago", "raceLocationName": "Port of Spain", "raceLocation": {"lon": "-61.5180173","lat": "10.6572678"},"rank": 9, "time": 9.82, "wind": "+1.7"}
+{"index":{"_id":"39"}}    
+ { "date": "2017-06-06T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Christian Coleman", "runnerNation": "United States of America", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 9, "time": 9.82, "wind": "+1.3"}
+{"index":{"_id":"40"}}        
+ { "date": "1994-07-05T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Leroy Burrell", "runnerNation": "United States of America", "raceLocationName": "Lausanne", "raceLocation": {"lon": "6.6327025","lat": "46.5218269"},"rank": 14, "time": 9.85, "wind": "+1.2"}
+{"index":{"_id":"41"}}         
+ { "date": "2015-06-24T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Trayvon Bromell", "runnerNation": "United States of America", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 11, "time": 9.84, "wind": "+1.3"}
+{"index":{"_id":"42"}}         
+ { "date": "2016-07-02T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Trayvon Bromell", "runnerNation": "United States of America", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 11, "time": 9.84, "wind": "+1.6"}
+{"index":{"_id":"43"}}        
+ { "date": "2011-06-03T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Mike Rodgers", "runnerNation": "United States of America", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 14, "time": 9.85, "wind": "+1.3"}
+{"index":{"_id":"44"}}        
+ { "date": "1996-07-26T14:00:00.000Z", "runnerNationLocation": {"lon": "-107.9917071","lat": "61.0666922"},"manOrWoman": "Man", "athlete": "Donovan Bailey", "runnerNation": "Canada", "raceLocationName": "Atlanta", "raceLocation": {"lon": "-84.3901849","lat": "33.7490987"},"rank": 11, "time": 9.84, "wind": "+0.7"}
+{"index":{"_id":"45"}}        
+ { "date": "2006-05-11T14:00:00.000Z", "runnerNationLocation": {"lon": "7.9999721","lat": "9.6000359"},"manOrWoman": "Man", "athlete": "Olusoji Fasuba", "runnerNation": "Nigeria", "raceLocationName": "Doha", "raceLocation": {"lon": "51.4996673988223","lat": "25.3014957"},"rank": 14, "time": 9.85, "wind": "+1.7"}
+{"index":{"_id":"46"}}        
+ { "date": "1999-08-21T14:00:00.000Z", "runnerNationLocation": {"lon": "-107.9917071","lat": "61.0666922"},"manOrWoman": "Man", "athlete": "Bruny Surin", "runnerNation": "Canada", "raceLocationName": "Seville", "raceLocation": {"lon": "-5.9953171","lat": "37.3886303"},"rank": 11, "time": 9.84, "wind": "+0.2"}
+{"index":{"_id":"47"}}          
+ { "date": "2012-06-22T14:00:00.000Z", "runnerNationLocation": {"lon": "-60.9821067","lat": "10.8677845"},"manOrWoman": "Man", "athlete": "Keston Bledman", "runnerNation": "Trinidad and Tobago", "raceLocationName": "Port of Spain", "raceLocation": {"lon": "-61.5180173","lat": "10.6572678"},"rank": 17, "time": 9.86, "wind": "+1.4"}
+{"index":{"_id":"48"}}        
+ { "date": "2004-06-18T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Shawn Crawford", "runnerNation": "United States of America", "raceLocationName": "Eugene", "raceLocation": {"lon": "-123.0950506","lat": "44.0505054"},"rank": 25, "time": 9.88, "wind": "+1.8"}
+{"index":{"_id":"49"}}    
+ { "date": "1991-08-24T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Carl Lewis", "runnerNation": "United States of America", "raceLocationName": "Tokyo", "raceLocation": {"lon": "139.7589667","lat": "35.6828378"},"rank": 17, "time": 9.86, "wind": "+1.2"}
+{"index":{"_id":"50"}}       
+ { "date": "1993-08-14T14:00:00.000Z", "runnerNationLocation": {"lon": "-3.2765753","lat": "54.7023545"},"manOrWoman": "Man", "athlete": "Linford Christie", "runnerNation": "United Kingdom", "raceLocationName": "Stuttgart", "raceLocation": {"lon": "9.1800132","lat": "48.7784485"},"rank": 23, "time": 9.87, "wind": "+0.3"}
+{"index":{"_id":"51"}}         
+ { "date": "1998-09-10T14:00:00.000Z", "runnerNationLocation": {"lon": "-59.5250305","lat": "13.1500331"},"manOrWoman": "Man", "athlete": "Obadele Thompson", "runnerNation": "Barbados", "raceLocationName": "Johannesburg", "raceLocation": {"lon": "28.049722","lat": "-26.205"},"rank": 23, "time": 9.87, "wind": "-0.2"}
+{"index":{"_id":"52"}}    
+ { "date": "1998-04-18T14:00:00.000Z", "runnerNationLocation": {"lon": "-60.9821067","lat": "10.8677845"},"manOrWoman": "Man", "athlete": "Ato Boldon", "runnerNation": "Trinidad and Tobago", "raceLocationName": "Walnut", "raceLocation": {"lon": "-117.8653386","lat": "34.0202894"},"rank": 17, "time": 9.86, "wind": "+1.8"}
+{"index":{"_id":"53"}}        
+ { "date": "1996-07-02T14:00:00.000Z", "runnerNationLocation": {"lon": "17.3231107","lat": "-23.2335499"},"manOrWoman": "Man", "athlete": "Frankie Fredericks", "runnerNation": "Namibia", "raceLocationName": "Lausanne", "raceLocation": {"lon": "6.6327025","lat": "46.5218269"},"rank": 17, "time": 9.86, "wind": "-0.7"}
+{"index":{"_id":"54"}}         
+ { "date": "2004-08-21T14:00:00.000Z", "runnerNationLocation": {"lon": "-7.8896263","lat": "40.033265"},"manOrWoman": "Man", "athlete": "Francis Obikwelu", "runnerNation": "Portugal", "raceLocationName": "Athens", "raceLocation": {"lon": "-83.3881868","lat": "33.9550905"},"rank": 17, "time": 9.86, "wind": "+0.6"}
+{"index":{"_id":"55"}}         
+ { "date": "2015-07-03T14:00:00.000Z", "runnerNationLocation": {"lon": "1.8883335","lat": "46.603354"},"manOrWoman": "Man", "athlete": "Jimmy Vicaut", "runnerNation": "France", "raceLocationName": "Saint-Denis", "raceLocation": {"lon": "2.3580232","lat": "48.935773"},"rank": 17, "time": 9.86, "wind": "+1.3"}
+{"index":{"_id":"56"}}         
+ { "date": "2010-08-07T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Walter Dix", "runnerNation": "United States of America", "raceLocationName": "Nottwil", "raceLocation": {"lon": "8.1318599","lat": "47.1378546"},"rank": 25, "time": 9.88, "wind": "+1.0"}
+{"index":{"_id":"57"}}     
+ { "date": "2010-08-28T14:00:00.000Z", "runnerNationLocation": {"lon": "-100.4458825","lat": "39.7837304"},"manOrWoman": "Man", "athlete": "Ryan Bailey", "runnerNation": "United States of America", "raceLocationName": "Rieti", "raceLocation": {"lon": "12.8629993","lat": "42.4016906"},"rank": 25, "time": 9.88, "wind": "+0.9"}
+{"index":{"_id":"58"}}       
+ { "date": "2011-06-29T14:00:00.000Z", "runnerNationLocation": {"lon": "-77.3947693","lat": "18.1850507"},"manOrWoman": "Man", "athlete": "Michael Frater", "runnerNation": "Jamaica", "raceLocationName": "Lausanne", "raceLocation": {"lon": "6.6327025","lat": "46.5218269"},"rank": 25, "time": 9.88, "wind": "+1.0"}
+{"index":{"_id":"59"}}      
+ { "date": "2017-04-07T14:00:00.000Z", "runnerNationLocation": {"lon": "27.5599164","lat": "-14.5186239"},"manOrWoman": "Man", "athlete": "Sydney Siame", "runnerNation": "Zambia", "raceLocationName": "Lusaka", "raceLocation": {"lon": "28.281381","lat": "-15.416697"},"rank": 25, "time": 9.88, "wind": "+0.2"}
+
