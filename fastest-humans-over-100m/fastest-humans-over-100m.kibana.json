@@ -98,6 +98,21 @@
       }
     }
   },
+
+  {
+    "_id": "ad5520c0-7a27-11e7-b619-cfd86b27f007",
+    "_type": "visualization",
+    "_source": {
+      "title": "fastest-humans-over-100m - Attribution",
+      "visState": "{\"title\":\"fastest-humans-over-100m - Attribution\",\"type\":\"markdown\",\"params\":{\"markdown\":\"Example provided under;\\n\\n- Creative Commons Attribution-ShareAlike 3.0 Unported License (“CC BY-SA”), and\\n\\n- GNU Free Documentation License (“GFDL”) \\n\\n\\n** All Runner and Event data sources from Wikipedia - https://en.wikipedia.org/wiki/100_metres **\\n\\nSee https://wikimediafoundation.org/wiki/Terms_of_Use/en for further details \\n\\n\\n**All locations data and reverse geo-coding © OpenStreetMap contributors**\\n\\nSee http://www.openstreetmap.org/copyright for further details\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
   {
     "_id": "643ec3d0-4e73-11e7-9652-9146afae3db7",
     "_type": "dashboard",
@@ -105,7 +120,7 @@
       "title": "fastest-humans-over-100m",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"d66aa100-4e72-11e7-9652-9146afae3db7\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"3b30f800-4e73-11e7-9652-9146afae3db7\",\"panelIndex\":2,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"manOrWoman\",\"rank\",\"athlete\",\"time\"],\"id\":\"d125c5b0-4e60-11e7-890b-e13cf57e09d6\",\"panelIndex\":3,\"row\":4,\"size_x\":6,\"size_y\":3,\"sort\":[\"time\",\"asc\"],\"type\":\"search\"},{\"col\":1,\"id\":\"b2bf0c40-4e73-11e7-9652-9146afae3db7\",\"panelIndex\":4,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"073a3ec0-4e74-11e7-9652-9146afae3db7\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"7f229d00-4eed-11e7-9652-9146afae3db7\",\"panelIndex\":6,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":12,\"size_y\":1,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"ad5520c0-7a27-11e7-b619-cfd86b27f007\",\"col\":1,\"row\":10}]",
+      "panelsJSON": "[{\"col\":1,\"id\":\"d66aa100-4e72-11e7-9652-9146afae3db7\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"3b30f800-4e73-11e7-9652-9146afae3db7\",\"panelIndex\":2,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"manOrWoman\",\"rank\",\"athlete\",\"time\"],\"id\":\"d125c5b0-4e60-11e7-890b-e13cf57e09d6\",\"panelIndex\":3,\"row\":4,\"size_x\":6,\"size_y\":3,\"sort\":[\"time\",\"asc\"],\"type\":\"search\"},{\"col\":1,\"id\":\"b2bf0c40-4e73-11e7-9652-9146afae3db7\",\"panelIndex\":4,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"073a3ec0-4e74-11e7-9652-9146afae3db7\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"7f229d00-4eed-11e7-9652-9146afae3db7\",\"panelIndex\":6,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"ad5520c0-7a27-11e7-b619-cfd86b27f007\",\"panelIndex\":7,\"row\":10,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"}]",
       "optionsJSON": "{\"darkTheme\":false}",
       "uiStateJSON": "{\"P-1\":{\"mapCenter\":[44.08758502824516,0],\"mapZoom\":1},\"P-2\":{\"mapCenter\":[35.746512259918504,0],\"mapZoom\":1},\"P-4\":{\"vis\":{\"legendOpen\":true}},\"P-6\":{\"vis\":{\"legendOpen\":false}}}",
       "version": 1,
@@ -119,20 +134,6 @@
       },
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"default_operator\":\"AND\",\"query\":\"*\"}}}],\"highlightAll\":true,\"version\":true}"
-      }
-    }
-  },
-  {
-    "_id": "ad5520c0-7a27-11e7-b619-cfd86b27f007",
-    "_type": "visualization",
-    "_source": {
-      "title": "fastest-humans-over-100m - Attribution",
-      "visState": "{\"title\":\"fastest-humans-over-100m - Attribution\",\"type\":\"markdown\",\"params\":{\"markdown\":\"Example provided under;\\n\\n- Creative Commons Attribution-ShareAlike 3.0 Unported License (“CC BY-SA”), and\\n\\n- GNU Free Documentation License (“GFDL”) \\n\\n\\n** All Runner and Event data sources from Wikipedia - https://en.wikipedia.org/wiki/100_metres **\\n\\nSee https://wikimediafoundation.org/wiki/Terms_of_Use/en for further details \\n\\n\\n**All locations data and reverse geo-coding © OpenStreetMap contributors**\\n\\nSee http://www.openstreetmap.org/copyright for further details\"},\"aggs\":[],\"listeners\":{}}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\"}},\"filter\":[]}"
       }
     }
   }
