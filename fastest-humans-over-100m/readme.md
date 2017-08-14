@@ -1,4 +1,4 @@
-## Using Logstash to Load up a CSV with the World's fastest Runners into Elasticsearch & then Visualise the data in Kibana
+## Load up a sample JSON File of the World's fastest Runners into Elasticsearch & then Visualise the data in Kibana
 
 Firstly this dataset is small - however the techiques used here can be applied to your own large datasets.
 In this example, we will be loading up some stats in relation to the fastest humans over 100 meters with data pulled from [wikipedia.org](http://en.wikipedia.org/wiki/100_metres). 
