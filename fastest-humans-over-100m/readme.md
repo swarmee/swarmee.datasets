@@ -27,7 +27,7 @@ Example has been tested in following versions:
 The dataset is very small so is included in the git repo, all that is needed to load the data into elastic is 
 * Post in a mapping
   ```shell
-  <path_where_you_cloned_the_repo>curl -H 'Content-Type: application/x-json' -XPUT 'http://localhost:9200/fastest-humans-over-100m?pretty' -d @fastest-humans-over-100m.mapping.json
+  <path_where_you_cloned_the_repo>curl -H 'Content-Type: application/json' -XPUT 'http://localhost:9200/fastest-humans-over-100m?pretty' -d @fastest-humans-over-100m.mapping.json
   ```
 * Post in the Data
 ```shell
