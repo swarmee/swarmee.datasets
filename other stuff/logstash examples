@@ -1,0 +1,10 @@
+Different Inputs
+
+    file {        path => "/home/xxxx/*.log"       
+                  start_position => beginning
+                  sincedb_path => "/dev/null"
+                  ignore_older => 0
+                  type => "data"
+                  codec => "json"    
+         }
+
