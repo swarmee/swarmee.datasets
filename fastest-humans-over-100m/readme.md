@@ -22,7 +22,7 @@ Example has been tested in following versions:
   - Open `localhost:9200` in web browser -- should return status code 200
   - Open `localhost:5601` in web browser -- should display Kibana UI.
 
-### Load Up the Data (run the shell script) 
+### Post in the Config and the Data 
 
 The dataset is very small so is included in the git repo, all that is needed to load the data into elastic is 
 * Post in a mapping
