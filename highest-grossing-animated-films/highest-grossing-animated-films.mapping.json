@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 1,
+    "index.codec": "best_compression",
+    "index.refresh_interval" : "1s"
+  },
+    "mappings": {
+      "film": {
+        "properties": {
+          "moneyMade": {
+            "type": "long"
+          },
+          "peakRank": {
+            "type": "long"
+          },
+          "rank": {
+            "type": "long"
+          },
+          "released": {
+            "type": "date"
+          },
+          "title": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "yearReleased": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      }
+    }
+}
+
