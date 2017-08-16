@@ -46,5 +46,4 @@ The dataset is very small so is included in the git repo, all that is needed to 
 
 ![Dashboard Screenshot](https://github.com/swarmee/swarmee.datasets/highest-grossing-animated-films/blob/master/highest-grossing-animated-films.png)
 
-
-![Dashboard Screenshot](https://github.com/swarmee/swarmee.datasets/highest-grossing-animated-films/master/highest-grossing-animated-films.png)
+![Dashboard Screenshot](https://github.com/swarmee/swarmee.datasets/raw/master/highest-grossing-animated-films/highest-grossing-animated-films.png)
