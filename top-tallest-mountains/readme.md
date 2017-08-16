@@ -31,18 +31,18 @@ The dataset is very small so is included in the git repo, all that is needed to 
   ```
 * Post in the Data
 ```shell
-  <path_where_you_cloned_the_repo>curl -H 'Content-Type: application/x-ndjson' -XPOST 'http://localhost:9200/top-tallest-mountains/run/_bulk?pretty' --data-binary @fastest-humans-over-100m.data.json
+  <path_where_you_cloned_the_repo>curl -H 'Content-Type: application/x-ndjson' -XPOST 'http://localhost:9200/top-tallest-mountains/mountain/_bulk?pretty' --data-binary @top-tallest-mountains.data.json
   ```
 
 #### Visualize Data in Kibana
 
 * Access Kibana by going to `http://localhost:5601` in a web browser
 * Connect Kibana to the `top-tallest-mountains` index in Elasticsearch
-    * Click the **Settings** tab >> **Indices** tab >> **Create New**. Specify `fastest-humans-over-100m` as the index pattern name, select `date` as the **Time-field name**, and click **Create** to define the index pattern. (Leave the **Use event times to create index names** box unchecked)
+    * Click the **Settings** tab >> **Indices** tab >> **Create New**. Specify `top-tallest-mountains` as the index pattern name, select `date` as the **Time-field name**, and click **Create** to define the index pattern. (Leave the **Use event times to create index names** box unchecked)
 * Load sample dashboard into Kibana
     * Click the **Settings** tab >> **Objects** tab >> **Import**, and select `top-tallest-mountains.kibana.json`
 * Open dashboard
     * Click on **Dashboard** tab and open `top-tallest-mountains` dashboard. Voila! You should see the following dashboard. Happy Data Exploration!
 
-![Dashboard Screenshot](http://www.swarmee.net/images/slide03.png)
+![Dashboard Screenshot](https://github.com/swarmee/swarmee.datasets/raw/master/top-tallest-mountains/top-tallest-mountains.png)
 

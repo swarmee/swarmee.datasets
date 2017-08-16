@@ -1,5 +1,5 @@
 [
-  {
+     {
     "_id": "e642fe30-59f1-11e7-be03-87f4dce0fed1",
     "_type": "search",
     "_source": {
@@ -24,7 +24,7 @@
       }
     }
   },
-  {
+{
     "_id": "615ea600-59f2-11e7-be03-87f4dce0fed1",
     "_type": "visualization",
     "_source": {
@@ -115,13 +115,27 @@
     }
   },
   {
+    "_id": "5e6b8cb0-82ce-11e7-b431-dba9e590d324",
+    "_type": "visualization",
+    "_source": {
+      "title": "top-tallest-mountains - Attribution",
+      "visState": "{\"title\":\"top-tallest-mountains - Attribution\",\"type\":\"markdown\",\"params\":{\"markdown\":\"Example provided under;\\n\\n- Creative Commons Attribution-ShareAlike 3.0 Unported License (“CC BY-SA”), and\\n\\n- GNU Free Documentation License (“GFDL”) \\n\\n\\n** All Mountain data sources from Wikipedia - https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth**\\n\\nSee https://wikimediafoundation.org/wiki/Terms_of_Use/en for further details \\n\\n\\n**All locations data and reverse geo-coding © OpenStreetMap contributors**\\n\\nSee http://www.openstreetmap.org/copyright for further details\"},\"aggs\":[],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  },
+{
     "_id": "d02bde80-5a57-11e7-be03-87f4dce0fed1",
     "_type": "dashboard",
     "_source": {
       "title": "top-tallest-mountains",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"col\":9,\"id\":\"4b43ab30-5a57-11e7-be03-87f4dce0fed1\",\"panelIndex\":2,\"row\":13,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":6,\"id\":\"0067d9b0-5a57-11e7-be03-87f4dce0fed1\",\"panelIndex\":3,\"row\":9,\"size_x\":7,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"615ea600-59f2-11e7-be03-87f4dce0fed1\",\"panelIndex\":4,\"row\":1,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e6a0e220-5aa0-11e7-be03-87f4dce0fed1\",\"panelIndex\":6,\"row\":13,\"size_x\":8,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"rank\",\"mountainMainName\",\"heightMetres\",\"prominenceMetres\",\"parentMountain\",\"firstAscentYear\"],\"id\":\"e642fe30-59f1-11e7-be03-87f4dce0fed1\",\"panelIndex\":7,\"row\":15,\"size_x\":12,\"size_y\":4,\"sort\":[\"rank\",\"asc\"],\"type\":\"search\"},{\"size_x\":5,\"size_y\":8,\"panelIndex\":9,\"type\":\"visualization\",\"id\":\"fc77aff0-5aa7-11e7-a8c6-53919d3ac769\",\"col\":1,\"row\":5},{\"size_x\":7,\"size_y\":4,\"panelIndex\":10,\"type\":\"visualization\",\"id\":\"756b1eb0-62fa-11e7-9ecc-5ba21293064c\",\"col\":6,\"row\":5}]",
+      "panelsJSON": "[{\"col\":9,\"id\":\"4b43ab30-5a57-11e7-be03-87f4dce0fed1\",\"panelIndex\":2,\"row\":13,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":6,\"id\":\"0067d9b0-5a57-11e7-be03-87f4dce0fed1\",\"panelIndex\":3,\"row\":9,\"size_x\":7,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"615ea600-59f2-11e7-be03-87f4dce0fed1\",\"panelIndex\":4,\"row\":1,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"e6a0e220-5aa0-11e7-be03-87f4dce0fed1\",\"panelIndex\":6,\"row\":13,\"size_x\":8,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"rank\",\"mountainMainName\",\"heightMetres\",\"prominenceMetres\",\"parentMountain\",\"firstAscentYear\"],\"id\":\"e642fe30-59f1-11e7-be03-87f4dce0fed1\",\"panelIndex\":7,\"row\":15,\"size_x\":12,\"size_y\":13,\"sort\":[\"rank\",\"asc\"],\"type\":\"search\"},{\"size_x\":5,\"size_y\":8,\"panelIndex\":9,\"type\":\"visualization\",\"id\":\"fc77aff0-5aa7-11e7-a8c6-53919d3ac769\",\"col\":1,\"row\":5},{\"size_x\":7,\"size_y\":4,\"panelIndex\":10,\"type\":\"visualization\",\"id\":\"756b1eb0-62fa-11e7-9ecc-5ba21293064c\",\"col\":6,\"row\":5},{\"size_x\":12,\"size_y\":3,\"panelIndex\":11,\"type\":\"visualization\",\"id\":\"5e6b8cb0-82ce-11e7-b431-dba9e590d324\",\"col\":1,\"row\":28}]",
       "optionsJSON": "{\"darkTheme\":false}",
       "uiStateJSON": "{\"P-2\":{\"vis\":{\"legendOpen\":true}},\"P-3\":{\"mapCenter\":[33.19273094190692,87.5830078125],\"mapZoom\":4},\"P-6\":{\"vis\":{\"legendOpen\":false}},\"P-9\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-10\":{\"mapCenter\":[14.093957177836224,129.375]}}",
       "version": 1,
