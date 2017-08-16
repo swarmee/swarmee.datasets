@@ -44,6 +44,4 @@ The dataset is very small so is included in the git repo, all that is needed to 
 * Open dashboard
     * Click on **Dashboard** tab and open `highest-grossing-animated-films` dashboard. Voila! You should see the following dashboard. Happy Data Exploration!
 
-![Dashboard Screenshot](https://github.com/swarmee/swarmee.datasets/highest-grossing-animated-films/blob/master/highest-grossing-animated-films.png)
-
 ![Dashboard Screenshot](https://github.com/swarmee/swarmee.datasets/raw/master/highest-grossing-animated-films/highest-grossing-animated-films.png)
