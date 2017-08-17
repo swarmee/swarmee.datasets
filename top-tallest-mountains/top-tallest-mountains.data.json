@@ -1714,13 +1714,7 @@
           "mountainMainName": "Saser Kangri III",
           "firstAscentYear": 1986
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "52_Noshaq",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Afghanistan",
             "Pakistan"
@@ -1743,13 +1737,7 @@
           "mountainMainName": "Noshaq",
           "firstAscentYear": 1960
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "53_Pumari Chhish",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -1771,13 +1759,7 @@
           "mountainMainName": "Pumari Chhish",
           "firstAscentYear": 1979
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "54_Passu Sar",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -1799,13 +1781,7 @@
           "mountainMainName": "Passu Sar",
           "firstAscentYear": 1994
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "55_Yukshin Gardan Sar",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -1827,13 +1803,7 @@
           "mountainMainName": "Yukshin Gardan Sar",
           "firstAscentYear": 1984
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "56_Teram Kangri I",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "China"
@@ -1856,13 +1826,7 @@
           "mountainMainName": "Teram Kangri I",
           "firstAscentYear": 1975
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "57_Jongsong Peak",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "China",
@@ -1886,13 +1850,7 @@
           "mountainMainName": "Jongsong Peak",
           "firstAscentYear": 1930
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "58_Malubiting",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -1914,13 +1872,7 @@
           "mountainMainName": "Malubiting",
           "firstAscentYear": 1971
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "59_Gangapurna",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal"
           ],
@@ -1942,13 +1894,7 @@
           "mountainMainName": "Gangapurna",
           "firstAscentYear": 1965
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "60_Jengish Chokusu",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Kyrgyzstan",
             "China"
@@ -1973,13 +1919,7 @@
           "mountainMainName": "Jengish Chokusu",
           "firstAscentYear": 1956
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "60_Sunanda Devi",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India"
           ],
@@ -2002,13 +1942,7 @@
           "mountainMainName": "Sunanda Devi",
           "firstAscentYear": 1939
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "61_K12",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "Pakistan"
@@ -2031,13 +1965,7 @@
           "mountainMainName": "K12",
           "firstAscentYear": 1974
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "62_Yangra",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal",
             "China"
@@ -2061,13 +1989,7 @@
           "mountainMainName": "Yangra",
           "firstAscentYear": 1955
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "63_Sia Kangri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan",
             "India",
@@ -2091,13 +2013,7 @@
           "mountainMainName": "Sia Kangri",
           "firstAscentYear": 1934
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "64_Momhil Sar",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2119,13 +2035,7 @@
           "mountainMainName": "Momhil Sar",
           "firstAscentYear": 1964
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "65_Kabru N",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "Nepal"
@@ -2148,13 +2058,7 @@
           "mountainMainName": "Kabru N",
           "firstAscentYear": 1994
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "66_Skil Brum",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2176,13 +2080,7 @@
           "mountainMainName": "Skil Brum",
           "firstAscentYear": 1957
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "67_Haramosh Peak",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2204,13 +2102,7 @@
           "mountainMainName": "Haramosh Peak",
           "firstAscentYear": 1958
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "68_Istor-o-Nal",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2232,13 +2124,7 @@
           "mountainMainName": "Istor-o-Nal",
           "firstAscentYear": 1969
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "69_Ghent Kangri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "Pakistan"
@@ -2261,13 +2147,7 @@
           "mountainMainName": "Ghent Kangri",
           "firstAscentYear": 1961
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "70_Ultar",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2289,13 +2169,7 @@
           "mountainMainName": "Ultar",
           "firstAscentYear": 1996
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "71_Rimo I",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India"
           ],
@@ -2317,13 +2191,7 @@
           "mountainMainName": "Rimo I",
           "firstAscentYear": 1988
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "72_Churen Himal",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal"
           ],
@@ -2345,13 +2213,7 @@
           "mountainMainName": "Churen Himal",
           "firstAscentYear": 1970
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "73_Teram Kangri III",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "China"
@@ -2374,13 +2236,7 @@
           "mountainMainName": "Teram Kangri III",
           "firstAscentYear": 1979
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "74_Sherpi Kangri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "Pakistan"
@@ -2403,13 +2259,7 @@
           "mountainMainName": "Sherpi Kangri",
           "firstAscentYear": 1976
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "75_Labuche Kang",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -2431,13 +2281,7 @@
           "mountainMainName": "Labuche Kang",
           "firstAscentYear": 1987
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "76_Kirat Chuli",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "Nepal"
@@ -2460,13 +2304,7 @@
           "mountainMainName": "Kirat Chuli",
           "firstAscentYear": 1939
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "76_Abi Gamin",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "China"
@@ -2489,13 +2327,7 @@
           "mountainMainName": "Abi Gamin",
           "firstAscentYear": 1950
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "76_Gimmigela",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "Nepal"
@@ -2519,13 +2351,7 @@
           "mountainMainName": "Gimmigela",
           "firstAscentYear": 1994
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "76_Nangpai Gosum",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal",
             "China"
@@ -2548,13 +2374,7 @@
           "mountainMainName": "Nangpai Gosum",
           "firstAscentYear": 1996
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "77_Saraghrar",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2576,13 +2396,7 @@
           "mountainMainName": "Saraghrar",
           "firstAscentYear": 1959
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "78_Jomolhari",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Bhutan",
             "China"
@@ -2606,13 +2420,7 @@
           "mountainMainName": "Jomolhari",
           "firstAscentYear": 1937
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "79_Chamlang",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal"
           ],
@@ -2634,13 +2442,7 @@
           "mountainMainName": "Chamlang",
           "firstAscentYear": 1961
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "80_Chongtar",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -2662,13 +2464,7 @@
           "mountainMainName": "Chongtar",
           "firstAscentYear": 1994
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "81_Baltoro Kangri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2690,13 +2486,7 @@
           "mountainMainName": "Baltoro Kangri",
           "firstAscentYear": 1976
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "82_Siguang Ri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -2718,13 +2508,7 @@
           "mountainMainName": "Siguang Ri",
           "firstAscentYear": 1989
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "83_The Crown",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -2747,13 +2531,7 @@
           "mountainMainName": "The Crown",
           "firstAscentYear": 1993
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "84_Gyala Peri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -2775,13 +2553,7 @@
           "mountainMainName": "Gyala Peri",
           "firstAscentYear": 1986
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "85_Porong Ri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -2803,13 +2575,7 @@
           "mountainMainName": "Porong Ri",
           "firstAscentYear": 1982
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "86_Baintha Brakk",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2832,13 +2598,7 @@
           "mountainMainName": "Baintha Brakk",
           "firstAscentYear": 1977
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "87_Yutmaru Sar",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2860,13 +2620,7 @@
           "mountainMainName": "Yutmaru Sar",
           "firstAscentYear": 1980
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "88_Baltistan Peak",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -2889,13 +2643,7 @@
           "mountainMainName": "Baltistan Peak",
           "firstAscentYear": 1970
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "89_Kangpenqing",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -2918,13 +2666,7 @@
           "mountainMainName": "Kangpenqing",
           "firstAscentYear": 1982
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "90_Muztagh Tower",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan",
             "China"
@@ -2947,13 +2689,7 @@
           "mountainMainName": "Muztagh Tower",
           "firstAscentYear": 1956
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "91_Mana Peak",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India"
           ],
@@ -2975,13 +2711,7 @@
           "mountainMainName": "Mana Peak",
           "firstAscentYear": 1937
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "91_Dhaulagiri VI",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal"
           ],
@@ -3003,13 +2733,7 @@
           "mountainMainName": "Dhaulagiri VI",
           "firstAscentYear": 1970
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "92_Diran",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -3031,13 +2755,7 @@
           "mountainMainName": "Diran",
           "firstAscentYear": 1968
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "93_Labuche Kang III",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -3059,13 +2777,7 @@
           "mountainMainName": "Labuche Kang III",
           "firstAscentYear": null
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "94_Putha Hiunchuli",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal"
           ],
@@ -3087,13 +2799,7 @@
           "mountainMainName": "Putha Hiunchuli",
           "firstAscentYear": 1954
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "95_Apsarasas Kangri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "China"
@@ -3116,13 +2822,7 @@
           "mountainMainName": "Apsarasas Kangri",
           "firstAscentYear": 1976
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "96_Mukut Parbat",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "China"
@@ -3145,13 +2845,7 @@
           "mountainMainName": "Mukut Parbat",
           "firstAscentYear": 1951
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "97_Rimo III",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India"
           ],
@@ -3173,13 +2867,7 @@
           "mountainMainName": "Rimo III",
           "firstAscentYear": 1985
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "98_Langtang Lirung",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal"
           ],
@@ -3201,13 +2889,7 @@
           "mountainMainName": "Langtang Lirung",
           "firstAscentYear": 1978
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "99_Karjiang",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -3228,13 +2910,7 @@
           "mountainMainName": "Karjiang",
           "firstAscentYear": null
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "100_Annapurna Dakshin",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal"
           ],
@@ -3256,13 +2932,7 @@
           "mountainMainName": "Annapurna Dakshin",
           "firstAscentYear": 1964
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "101_Khartaphu",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -3284,13 +2954,7 @@
           "mountainMainName": "Khartaphu",
           "firstAscentYear": 1935
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "102_Tongshanjiabu",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Bhutan",
             "China"
@@ -3312,13 +2976,7 @@
           "mountainMainName": "Tongshanjiabu",
           "firstAscentYear": null
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "103_Malangutti Sar",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -3340,13 +2998,7 @@
           "mountainMainName": "Malangutti Sar",
           "firstAscentYear": 1985
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "104_Noijin Kangsang",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "China"
           ],
@@ -3369,13 +3021,7 @@
           "mountainMainName": "Noijin Kangsang",
           "firstAscentYear": 1986
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "105_Langtang Ri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Nepal",
             "China"
@@ -3398,13 +3044,7 @@
           "mountainMainName": "Langtang Ri",
           "firstAscentYear": 1981
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "106_Kangphu Kang",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "Bhutan",
             "China"
@@ -3427,13 +3067,7 @@
           "mountainMainName": "Kangphu Kang",
           "firstAscentYear": 2002
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "107_Singhi Kangri",
-        "_score": 1,
-        "_source": {
+{
           "mountainCountries": [
             "India",
             "China"
@@ -3456,13 +3090,8 @@
           "mountainMainName": "Singhi Kangri",
           "firstAscentYear": 1976
         }
-      },
-      {
-        "_index": "top-tallest-mountains-01-01-2017",
-        "_type": "mountain",
-        "_id": "108_Lupghar Sar",
-        "_score": 1,
-        "_source": {
+
+{
           "mountainCountries": [
             "Pakistan"
           ],
@@ -3484,7 +3113,3 @@
           "mountainMainName": "Lupghar Sar",
           "firstAscentYear": 1979
         }
-      }
-    ]
-  }
-}
