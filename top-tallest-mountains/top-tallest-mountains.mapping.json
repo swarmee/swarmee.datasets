@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 1,
+    "index.codec": "best_compression",
+    "index.refresh_interval" : "3s"
+  },
+    "mappings": {
+      "mountain": {
+        "properties": {
+          "firstAscentDate": {
+            "type": "date"
+          },
+          "location": {
+            "type": "geo_point"
+          },
+          "rank": {
+            "type": "long"
+          },
+          "year": {
+            "type": "long"
+          }
+        }
+        }
+      }
+    }

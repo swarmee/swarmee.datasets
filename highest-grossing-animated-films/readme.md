@@ -40,7 +40,7 @@ The dataset is very small so is included in the git repo, all that is needed to 
 * Connect Kibana to the `highest-grossing-animated-films` index in Elasticsearch
     * Click the **Settings** tab >> **Indices** tab >> **Create New**. Specify `highest-grossing-animated-films` as the index pattern name, select `released` as the **Time-field name**, and click **Create** to define the index pattern. (Leave the **Use event times to create index names** box unchecked)
 * Load sample dashboard into Kibana
-    * Click the **Settings** tab >> **Objects** tab >> **Import**, and select `highest-grossing-animated-films.kibana.json`
+    * Click the **Settings** tab >> **Objects** tab >> **Import**, and select <path_where_you_cloned_the_repo>`highest-grossing-animated-films.kibana.json`
 * Open dashboard
     * Click on **Dashboard** tab and open `highest-grossing-animated-films` dashboard. Voila! You should see the following dashboard. Happy Data Exploration!
 

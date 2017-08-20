@@ -1,7 +1,7 @@
 ## Load up a sample JSON File of the World's Tallest Mountains into Elasticsearch & then Visualise the data in Kibana
 
 Firstly this dataset is small - however the techiques used here can be applied to your own large datasets.
-In this example, we will be loading up some stats in relation to the world's tallest mountains with data pulled from [wikipedia.org](https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth). 
+In this example, we will be loading up some stats in relation to the world's tallest mountains with data pulled from [wikipedia.org](https://en.wikipedia.org/wiki/List_of_highest_mountains_on_Earth). The data has been enhanced with reverse geo-locations from OpenStreetMap contributors. See http://www.openstreetmap.org/copyright for further details
 
 ##### Version
 Example has been tested in following versions:
@@ -40,7 +40,7 @@ The dataset is very small so is included in the git repo, all that is needed to 
 * Connect Kibana to the `top-tallest-mountains` index in Elasticsearch
     * Click the **Settings** tab >> **Indices** tab >> **Create New**. Specify `top-tallest-mountains` as the index pattern name, select `date` as the **Time-field name**, and click **Create** to define the index pattern. (Leave the **Use event times to create index names** box unchecked)
 * Load sample dashboard into Kibana
-    * Click the **Settings** tab >> **Objects** tab >> **Import**, and select `top-tallest-mountains.kibana.json`
+    * Click the **Settings** tab >> **Objects** tab >> **Import**, and select <path_where_you_cloned_the_repo>`top-tallest-mountains.kibana.json`
 * Open dashboard
     * Click on **Dashboard** tab and open `top-tallest-mountains` dashboard. Voila! You should see the following dashboard. Happy Data Exploration!
 
