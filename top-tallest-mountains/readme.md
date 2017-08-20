@@ -33,6 +33,7 @@ The dataset is very small so is included in the git repo, all that is needed to 
 ```shell
   <path_where_you_cloned_the_repo>curl -H 'Content-Type: application/x-ndjson' -XPOST 'http://localhost:9200/top-tallest-mountains/mountain/_bulk?pretty' --data-binary @top-tallest-mountains.data.json
   ```
+You can use curl's -u option to supply a username and password if you have set that up. 
 
 #### Visualize Data in Kibana
 
