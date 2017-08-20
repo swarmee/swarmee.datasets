@@ -22,10 +22,10 @@ Example has been tested in following versions:
   - Open `localhost:9200` in web browser -- should return status code 200
   - Open `localhost:5601` in web browser -- should display Kibana UI.
 
-### Post in the Config and the Data 
+### Post in the Data 
 
 The dataset is very small so is included in the git repo, all that is needed to load the data into elastic is 
-* Post in a mapping
+* Put in a mapping
   ```shell
   <path_where_you_cloned_the_repo>curl -H 'Content-Type: application/json' -XPUT 'http://localhost:9200/highest-grossing-animated-films?pretty' -d @highest-grossing-animated-films.mapping.json
   ```
