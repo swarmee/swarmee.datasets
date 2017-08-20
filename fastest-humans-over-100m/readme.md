@@ -1,7 +1,7 @@
 ## Load up a sample JSON File of the World's fastest Runners into Elasticsearch & then Visualise the data in Kibana
 
 Firstly this dataset is small - however the techiques used here can be applied to your own large datasets.
-In this example, we will be loading up some stats in relation to the fastest humans over 100 meters with data pulled from [wikipedia.org](http://en.wikipedia.org/wiki/100_metres). 
+In this example, we will be loading up some stats in relation to the fastest humans over 100 meters with data pulled from [wikipedia.org](http://en.wikipedia.org/wiki/100_metres). The data has been enhanced with reverse geo-locations from OpenStreetMap contributors. See http://www.openstreetmap.org/copyright for further details
 
 ##### Version
 Example has been tested in following versions:
@@ -44,5 +44,7 @@ The dataset is very small so is included in the git repo, all that is needed to 
 * Open dashboard
     * Click on **Dashboard** tab and open `fastest-humans-over-100m` dashboard. Voila! You should see the following dashboard. Happy Data Exploration!
 
-![Dashboard Screenshot](http://www.swarmee.net/images/slide03.png)
+![Dashboard Screenshot](https://github.com/swarmee/swarmee.datasets/raw/master/fastest-humans-over-100m/fastest-humans-over-100m.png)
+
+
 
