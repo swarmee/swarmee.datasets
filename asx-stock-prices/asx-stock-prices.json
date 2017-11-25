@@ -1,7 +1,7 @@
 {
-  "template": "asx-stock-prices-2-4-2017",
+  "template": "asx-stock-prices",
   "settings": {
-    "number_of_shards": 3,
+    "number_of_shards": 1,
     "number_of_replicas": 0,
     "index.codec": "best_compression",
     "index.refresh_interval" : "3s"
