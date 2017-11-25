@@ -1,4 +1,4 @@
-## Load up a sample JSON File of the World's fastest Runners into Elasticsearch & then Visualise the data in Kibana
+## Load up a sample JSON File of the World's fastest Runners into Elasticsearch (using curl) & then Visualise the data in Kibana
 
 Firstly this dataset is small - however the techiques used here can be applied to your own large datasets.
 In this example, we will be loading up some stats in relation to the fastest humans over 100 meters with data pulled from [wikipedia.org](http://en.wikipedia.org/wiki/100_metres). The data has been enhanced with reverse geo-locations from OpenStreetMap contributors. See http://www.openstreetmap.org/copyright for further details
@@ -11,12 +11,6 @@ Example has been tested in following versions:
 ### Installation & Setup
 
 * Follow the [Installation & Setup Guide](https://github.com/elastic/examples/blob/master/Installation%20and%20Setup.md) to install and test the Elastic Stack (*you can skip this step if you already have a working installation of the Elastic Stack*)
-
-* Start Elasticsearch & Kibana
-  ```shell
-  <path_to_elasticsearch_root_dir>/bin/elasticsearch
-  <path_to_kibana_root_dir>/bin/kibana
-  ```
 
 * Check that Elasticsearch and Kibana are up and running.
   - Open `localhost:9200` in web browser -- should return status code 200
