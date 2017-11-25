@@ -1,4 +1,4 @@
-## Load up a sample JSON File of the Highest Grossing Animated Films into Elasticsearch & then Visualise the data in Kibana
+## Load up a sample JSON Data File of the Highest Grossing Animated Films into Elasticsearch (using curl) & then Visualise the data in Kibana
 
 Firstly this dataset is small - however the techiques used here can be applied to your own large datasets.
 In this example, we will be loading up some stats in relation to animated films pulled from [wikipedia.org](https://en.wikipedia.org/wiki/List_of_highest-grossing_animated_films). 
@@ -11,12 +11,6 @@ Example has been tested in following versions:
 ### Installation & Setup
 
 * Follow the [Installation & Setup Guide](https://github.com/elastic/examples/blob/master/Installation%20and%20Setup.md) to install and test the Elastic Stack (*you can skip this step if you already have a working installation of the Elastic Stack*)
-
-* Start Elasticsearch & Kibana
-  ```shell
-  <path_to_elasticsearch_root_dir>/bin/elasticsearch
-  <path_to_kibana_root_dir>/bin/kibana
-  ```
 
 * Check that Elasticsearch and Kibana are up and running.
   - Open `localhost:9200` in web browser -- should return status code 200
