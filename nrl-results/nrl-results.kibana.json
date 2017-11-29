@@ -1,106 +1,5 @@
 [
   {
-    "_id": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
-    "_type": "search",
-    "_source": {
-      "title": "nrl-results",
-      "description": "",
-      "hits": 0,
-      "columns": [
-        "homeTeam",
-        "homeScore",
-        "awayTeam",
-        "awayScore",
-        "winnerLocation",
-        "margin"
-      ],
-      "sort": [
-        "margin",
-        "desc"
-      ],
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"nrl-results\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
-      }
-    }
-  },
-  {
-    "_id": "4f2264a0-4e25-11e7-856d-a5e0f6fca26a",
-    "_type": "visualization",
-    "_source": {
-      "title": "nrl-results - Home / Away Percentages For Each Session",
-      "visState": "{\"title\":\"nrl-results - Home / Away Percentages For Each Session\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"session: Ascending\"},\"type\":\"category\"}],\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"},\"valueAxis\":\"ValueAxis-1\"},\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"setYExtents\":false,\"showCircles\":true,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"percentage\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"session\",\"size\":9,\"order\":\"asc\",\"orderBy\":\"_term\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"winnerLocation.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[]}"
-      }
-    }
-  },
-  {
-    "_id": "4b479b40-5071-11e7-a7dd-0762db256f83",
-    "_type": "visualization",
-    "_source": {
-      "title": "nrl-results - Play Off Games Won",
-      "visState": "{\"title\":\"nrl-results - Play Off Games Won\",\"type\":\"table\",\"params\":{\"perPage\":16,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"winningTeam.keyword\",\"size\":16,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
-      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
-      "description": "",
-      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"meta\":{\"index\":\"nrl-results\",\"key\":\"playOffGame.keyword\",\"value\":\"Y\",\"disabled\":false,\"negate\":false,\"alias\":null,\"apply\":true},\"query\":{\"match\":{\"playOffGame.keyword\":{\"query\":\"Y\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
-      }
-    }
-  },
-  {
-    "_id": "b879f8d0-5070-11e7-a7dd-0762db256f83",
-    "_type": "visualization",
-    "_source": {
-      "title": "nrl-results - Regular Session Wins",
-      "visState": "{\"title\":\"nrl-results - Regular Session Wins\",\"type\":\"table\",\"params\":{\"perPage\":16,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"winningTeam.keyword\",\"size\":16,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
-      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
-      "description": "",
-      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"meta\":{\"index\":\"nrl-results\",\"key\":\"playOffGame.keyword\",\"value\":\"Y\",\"disabled\":false,\"negate\":true,\"alias\":null,\"apply\":true},\"query\":{\"match\":{\"playOffGame.keyword\":{\"query\":\"Y\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
-      }
-    }
-  },
-  {
-    "_id": "2f6400e0-4e2c-11e7-8c7c-97f506ed7eaf",
-    "_type": "visualization",
-    "_source": {
-      "title": "nrl-results - Session Wins Heatmap",
-      "visState": "{\"title\":\"nrl-results - Session Wins Heatmap\",\"type\":\"heatmap\",\"params\":{\"addLegend\":true,\"addTooltip\":false,\"colorSchema\":\"Yellow to Red\",\"colorsNumber\":9,\"colorsRange\":[],\"enableHover\":true,\"invertColors\":false,\"legendPosition\":\"right\",\"percentageMode\":false,\"setColorRange\":false,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"color\":\"#555\",\"rotate\":0,\"show\":false},\"scale\":{\"defaultYExtents\":false,\"type\":\"linear\"},\"show\":false,\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"winningTeam.keyword\",\"size\":22,\"order\":\"asc\",\"orderBy\":\"_term\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"session\",\"size\":22,\"order\":\"asc\",\"orderBy\":\"_term\"}}],\"listeners\":{}}",
-      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 3\":\"rgb(255,255,204)\",\"3 - 5\":\"rgb(255,239,165)\",\"5 - 7\":\"rgb(254,222,127)\",\"7 - 9\":\"rgb(254,191,90)\",\"9 - 12\":\"rgb(253,158,67)\",\"12 - 14\":\"rgb(252,113,52)\",\"14 - 16\":\"rgb(244,61,37)\",\"16 - 18\":\"rgb(219,20,30)\",\"18 - 20\":\"rgb(182,0,38)\"}}}",
-      "description": "",
-      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[{\"meta\":{\"index\":\"nrl-results\",\"key\":\"playOffGame.keyword\",\"value\":\"N\",\"disabled\":false,\"negate\":false,\"alias\":null,\"apply\":true},\"query\":{\"match\":{\"playOffGame.keyword\":{\"query\":\"N\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
-      }
-    }
-  },
-  {
-    "_id": "73a6f7a0-50be-11e7-a65f-b92850ef7066",
-    "_type": "visualization",
-    "_source": {
-      "title": "nrl-results - Margin Breakdown",
-      "visState": "{\"title\":\"nrl-results - Margin Breakdown\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [0 TO 5]\",\"analyze_wildcard\":true}}},\"label\":\"Band 1 - 0 TO 5\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [6 TO 10]\",\"analyze_wildcard\":true}}},\"label\":\"Band 2 - 6 TO 10\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [11 TO 20]\",\"analyze_wildcard\":true}}},\"label\":\"Band 3 - 11 TO 20\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [21 TO 30]\",\"analyze_wildcard\":true}}},\"label\":\"Band 4 - 21 TO 30\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [31 TO 40]\",\"analyze_wildcard\":true}}},\"label\":\"Band 5 - 31 TO 40\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [41 TO 50]\",\"analyze_wildcard\":true}}},\"label\":\"Band 6 - 41 TO 50\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [51 TO 60]\",\"analyze_wildcard\":true}}},\"label\":\"Band 7 - 51 TO 60\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [61 TO * ]\",\"analyze_wildcard\":true}}},\"label\":\"Band 8 - 61+\"}]}}],\"listeners\":{}}",
-      "uiStateJSON": "{}",
-      "description": "",
-      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"filter\":[]}"
-      }
-    }
-  }
-,
-  {
     "_id": "e4997700-4e37-11e7-8561-eb72171a932d",
     "_type": "dashboard",
     "_source": {
@@ -122,6 +21,127 @@
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\",\"default_operator\":\"AND\"}}}],\"highlightAll\":true,\"version\":true}"
       }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
+    "_type": "search",
+    "_source": {
+      "title": "nrl-results",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "homeTeam",
+        "homeScore",
+        "awayTeam",
+        "awayScore",
+        "winnerLocation",
+        "margin"
+      ],
+      "sort": [
+        "margin",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"47664c10-d53c-11e7-9636-f18c6fef2798\",\"highlightAll\":true,\"version\":true,\"query\":{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4f2264a0-4e25-11e7-856d-a5e0f6fca26a",
+    "_type": "visualization",
+    "_source": {
+      "title": "nrl-results - Home / Away Percentages For Each Session",
+      "visState": "{\"title\":\"nrl-results - Home / Away Percentages For Each Session\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"session: Ascending\"},\"type\":\"category\"}],\"defaultYExtents\":false,\"drawLinesBetweenPoints\":true,\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"},\"valueAxis\":\"ValueAxis-1\"},\"interpolate\":\"linear\",\"legendPosition\":\"right\",\"radiusRatio\":9,\"scale\":\"linear\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"mode\":\"stacked\",\"show\":\"true\",\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"setYExtents\":false,\"showCircles\":true,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"percentage\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"session\",\"size\":9,\"order\":\"asc\",\"orderBy\":\"_term\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"winnerLocation.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "4b479b40-5071-11e7-a7dd-0762db256f83",
+    "_type": "visualization",
+    "_source": {
+      "title": "nrl-results - Play Off Games Won",
+      "visState": "{\"title\":\"nrl-results - Play Off Games Won\",\"type\":\"table\",\"params\":{\"perPage\":16,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"winningTeam.keyword\",\"size\":16,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "b879f8d0-5070-11e7-a7dd-0762db256f83",
+    "_type": "visualization",
+    "_source": {
+      "title": "nrl-results - Regular Session Wins",
+      "visState": "{\"title\":\"nrl-results - Regular Session Wins\",\"type\":\"table\",\"params\":{\"perPage\":16,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"winningTeam.keyword\",\"size\":16,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "2f6400e0-4e2c-11e7-8c7c-97f506ed7eaf",
+    "_type": "visualization",
+    "_source": {
+      "title": "nrl-results - Session Wins Heatmap",
+      "visState": "{\"title\":\"nrl-results - Session Wins Heatmap\",\"type\":\"heatmap\",\"params\":{\"addLegend\":true,\"addTooltip\":false,\"colorSchema\":\"Yellow to Red\",\"colorsNumber\":9,\"colorsRange\":[],\"enableHover\":true,\"invertColors\":false,\"legendPosition\":\"right\",\"percentageMode\":false,\"setColorRange\":false,\"times\":[],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"color\":\"#555\",\"rotate\":0,\"show\":false},\"scale\":{\"defaultYExtents\":false,\"type\":\"linear\"},\"show\":false,\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"winningTeam.keyword\",\"size\":22,\"order\":\"asc\",\"orderBy\":\"_term\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"session\",\"size\":22,\"order\":\"asc\",\"orderBy\":\"_term\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 3\":\"rgb(255,255,204)\",\"3 - 5\":\"rgb(255,239,165)\",\"5 - 7\":\"rgb(254,222,127)\",\"7 - 9\":\"rgb(254,191,90)\",\"9 - 12\":\"rgb(253,158,67)\",\"12 - 14\":\"rgb(252,113,52)\",\"14 - 16\":\"rgb(244,61,37)\",\"16 - 18\":\"rgb(219,20,30)\",\"18 - 20\":\"rgb(182,0,38)\"}}}",
+      "description": "",
+      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "73a6f7a0-50be-11e7-a65f-b92850ef7066",
+    "_type": "visualization",
+    "_source": {
+      "title": "nrl-results - Margin Breakdown",
+      "visState": "{\"title\":\"nrl-results - Margin Breakdown\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"filters\",\"schema\":\"segment\",\"params\":{\"filters\":[{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [0 TO 5]\",\"analyze_wildcard\":true}}},\"label\":\"Band 1 - 0 TO 5\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [6 TO 10]\",\"analyze_wildcard\":true}}},\"label\":\"Band 2 - 6 TO 10\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [11 TO 20]\",\"analyze_wildcard\":true}}},\"label\":\"Band 3 - 11 TO 20\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [21 TO 30]\",\"analyze_wildcard\":true}}},\"label\":\"Band 4 - 21 TO 30\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [31 TO 40]\",\"analyze_wildcard\":true}}},\"label\":\"Band 5 - 31 TO 40\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [41 TO 50]\",\"analyze_wildcard\":true}}},\"label\":\"Band 6 - 41 TO 50\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [51 TO 60]\",\"analyze_wildcard\":true}}},\"label\":\"Band 7 - 51 TO 60\"},{\"input\":{\"query\":{\"query_string\":{\"query\":\"margin: [61 TO * ]\",\"analyze_wildcard\":true}}},\"label\":\"Band 8 - 61+\"}]}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "3d6a3810-4e24-11e7-b9b0-57aa747d6dc6",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
     }
   }
 ]
