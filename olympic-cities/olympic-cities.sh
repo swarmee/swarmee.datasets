@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo '################ delete index ###############'
 curl -XDELETE ''"$1"':9200/olympic-cities?pretty' 
 echo '################ run load ###################'

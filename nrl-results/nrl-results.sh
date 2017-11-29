@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 echo '################ delete index ###############'
 curl -XDELETE ''"$1"':9200/nrl-results?pretty' 
 echo '################ run load ###################'
