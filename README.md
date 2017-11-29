@@ -1,6 +1,9 @@
 # logstash-examples
 Simple Scripts to illustrate Getting Data into the Elastic Stack
 
+There are two types of examples ones that only request curl to post the data into elastic search, and those that use logstash.
+The logstash examples include a bash script that initiates the process.
+
 Usage
 
 ./top-selling-books.sh {your elasticsearch host}
