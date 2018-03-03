@@ -6,7 +6,7 @@ In this example, we will be loading up some stats in relation to the fastest hum
 ##### Version
 Example has been tested in following versions:
 - Elasticsearch 5.5.1 (and now elasticsearch 6)
-- Kibana 5.5.1 (and not elasticsearch 6)
+- Kibana 5.5.1 (and now elasticsearch 6)
 
 ### Installation & Setup
 
