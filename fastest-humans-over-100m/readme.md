@@ -35,7 +35,7 @@ You can use curl's -u option to supply a username and password if you have set t
 * Connect Kibana to the `fastest-humans-over-100m` index in Elasticsearch
     * Click the **Settings** tab >> **Indices** tab >> **Create New**. Specify `fastest-humans-over-100m` as the index pattern name, select `date` as the **Time-field name**, and click **Create** to define the index pattern. (Leave the **Use event times to create index names** box unchecked)
 * Load sample dashboard into Kibana
-    * Click the **Settings** tab >> **Objects** tab >> **Import**, and select <path_where_you_cloned_the_repo>`fastest-humans-over-100m.kibana.json`
+    * Click the **Settings** tab >> **Objects** tab >> **Import**, and select <path_where_you_cloned_the_repo>`fastest-humans-over-100m.kibana.json` (a message may be displayed saying that the objects being imported relate to an index that no longer exists - you just need to pick the index name that you created in the previous step from the dropdown list if this happens)
 * Open dashboard
     * Click on **Dashboard** tab and open `fastest-humans-over-100m` dashboard. Voila! You should see the following dashboard. Happy Data Exploration!
 
