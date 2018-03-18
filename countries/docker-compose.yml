@@ -1,0 +1,20 @@
+version: '2.0'
+services:
+  logstash:
+    image: docker.elastic.co/logstash/logstash-oss:6.1.2
+    container_name: logstash-restcountries
+    environment:
+      ELASTICSEARCH_HOST: elasticsearch1
+      ELASTICSEARCH_PORT: 9200
+      HEAP_SIZE: 500m
+    volumes:
+      - ./pipeline/:/usr/share/logstash/pipeline:rw
+      - ./data/:/tmp:rw
+    ports:
+             - "5000:5000"
+             - "5001:5001"
+    networks:
+      - esnet
+
+networks:
+  esnet:
