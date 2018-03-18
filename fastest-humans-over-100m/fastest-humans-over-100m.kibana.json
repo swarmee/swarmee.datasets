@@ -110,7 +110,7 @@
     "_id": "3b30f800-4e73-11e7-9652-9146afae3db7",
     "_type": "visualization",
     "_source": {
-      "title": "fastest-humans-over-100m - Runner Nation Map",
+      "title": "fastest-humans-over-100m - Runner Nation Map ",
       "visState": "{\"title\":\"fastest-humans-over-100m - Runner Nation Map\",\"type\":\"tile_map\",\"params\":{\"addTooltip\":true,\"heatBlur\":\"7\",\"heatMaxZoom\":\"7\",\"heatMinOpacity\":\"0.76\",\"heatRadius\":\"19\",\"isDesaturated\":true,\"legendPosition\":\"bottomright\",\"mapCenter\":[0,0],\"mapType\":\"Shaded Circle Markers\",\"mapZoom\":2,\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"runnerNationLocation\",\"autoPrecision\":true,\"useGeocentroid\":true,\"precision\":2}}],\"listeners\":{}}",
       "uiStateJSON": "{\"mapZoom\":2,\"mapCenter\":[35.746512259918504,12.65625]}",
       "description": "",
